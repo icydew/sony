@@ -1,0 +1,57 @@
+@import "minireset.min";
+
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  background: #F6F6F6;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 100%;
+}
+
+.button {
+  border-radius: 2px;
+  background: #0091d9;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 8px 24px;
+  text-decoration: none;
+  text-align: center;
+
+  &:hover {
+    background: #00b0fe;
+  }
+
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+h3{
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+@import "components/main-menu";
+@import "components/main-content";
+@import "components/main-wrapper";
+@import "components/sub-menu";
+@import "components/main-header";
+@import "components/section-equipment";

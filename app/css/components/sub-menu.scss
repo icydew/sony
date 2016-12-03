@@ -1,0 +1,36 @@
+.sub-menu {
+  background: #777777;
+  font-size: 0.8rem;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  a {
+    color: #ffffff;
+    padding-right: 16px;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .more{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .inv{
+      padding: 8px 0;
+      display: none;
+      background: #777777;
+      div{
+        padding: 8px;
+      }
+
+    }
+    &:hover{
+      .inv{
+        display: block;
+        position: absolute;
+        top: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.section-equipment {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px 0;
+
+  .equipment {
+    padding: 16px;
+    width: 25%;
+    > h3 {
+      a {
+        color: #0090d9;
+        text-decoration: underline;
+      }
+    }
+  }
+  p {
+    padding-bottom: 16px;
+  }
+}
